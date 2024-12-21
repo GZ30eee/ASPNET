@@ -1,0 +1,88 @@
+﻿@using System.Data
+@{
+    ViewData["Title"] = "State List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main id="main" class="main">
+    <div class="pagetitle">
+        <h1>States</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a asp-controller="HomeMaster" asp-action="Index">
+                        <i class="fa fa-home"></i>
+                    </a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">State List</li>
+            </ol>
+        </nav>
+
+        <div class="d-flex justify-content-end align-items-center">
+            <a class="btn btn-outline-primary" asp-controller="State" asp-action="Create">
+                <i class="bi bi-plus-lg"></i>&nbsp;Add State
+            </a>
+        </div>
+    </div><!-- End Page Title -->
+
+    @if (TempData["StateInsertMsg"] != null)
+    {
+            <div class="alert alert-success">
+            @TempData["StateInsertMsg"]
+            </div>
+    }
+
+    <div class="mb-3">
+        <input type="text" class="form-control" id="stateSearch" placeholder="Search Any State">
+    </div>
+
+    <table class="table table-hover table-header-fixed">
+        <thead>
+            <tr>
+                <th scope="col">State Name</th>
+                <th scope="col">State Code</th>
+                <th scope="col">Country Name</th> <!-- Changed to show country name -->
+                <th class="text-center">Actions</th>
+            </tr>
+        </thead>
+
+        <tbody id="stateTable">
+            @foreach (DataRow row in Model.Rows)
+            {
+                // Get the corresponding country name from ViewBag.CountryList
+                var countryId = row["CountryID"].ToString();
+                var countryName = ((IEnumerable<SelectListItem>)ViewBag.CountryList)
+                                  .FirstOrDefault(c => c.Value == countryId)?.Text ?? "Unknown";
+
+                    <tr>
+                        <td>@row["StateName"]</td>
+                        <td>@row["StateCode"]</td>
+                        <td>@countryName</td> <!-- Displaying the country name -->
+                        <td class="text-center">
+                            <a class="btn btn-outline-success btn-xs" asp-controller="State" asp-action="Edit" asp-route-id="@row["StateID"]">
+                                Edit
+                            </a>
+                            <form asp-controller="State" asp-action="Delete" asp-route-id="@row["StateID"]" method="post" style="display:inline;">
+                                <button type="submit" class="btn btn-outline-danger btn-xs" onclick="return confirm('Are you sure you want to delete this state?');">
+                                    Delete
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+            }
+        </tbody>
+    </table>
+</main>
+
+@section Scripts {
+        <script>
+            $(document).ready(function () {
+                $("#stateSearch").on("keyup", function () {
+                    var value = $(this).val().toLowerCase();
+                    $("#stateTable tr").filter(function () {
+                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+                    });
+                });
+            });
+        </script>
+}

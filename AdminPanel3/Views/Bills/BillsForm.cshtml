@@ -1,0 +1,114 @@
+﻿@model AdminPanel3.Models.BillsModel
+
+@* @{
+    var action = ViewData["Action"] as string;
+    var title = action == "Create" ? "Create User" : "Edit User";
+    ViewData["Title"] = title;
+} *@
+
+<h2>Add/Edit Bill</h2>
+
+<main id="main" class="main">
+    <div class="pagetitle">
+        <h1>Bill</h1>
+    </div>
+
+    <section class="section">
+        <div class="row">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Bill</h5>
+
+                    <form asp-action="BillSave" method="post" class="form-container">
+                        <div class="form-group">
+                            <input type="hidden" asp-for="BillID" />
+                        </div>
+
+                        <div class="form-group row mb-3">
+                            <label asp-for="BillNumber" class="col-sm-2 col-form-label"><span class="text-danger">*</span>Bill Number</label>
+                            <div class="col-sm-10">
+                                <input asp-for="BillNumber" class="form-control" />
+                                <span asp-validation-for="BillNumber" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-3">
+                            <label asp-for="BillDate" class="col-sm-2 col-form-label"><span class="text-danger">*</span>Bill Date</label>
+                            <div class="col-sm-10">
+                                <input asp-for="BillDate" class="form-control" />
+                                <span asp-validation-for="BillDate" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-3">
+                            <label class="col-sm-2 col-form-label"><span class="text-danger">*</span>Order Number</label>
+                            <div class="col-sm-10">
+                                <select class="form-control" asp-for="OrderID" asp-items="@(new SelectList(ViewBag.OrderList, "OrderID", "OrderNumber"))">
+                                    <option value="">--Select OrderNumber--</option>
+                                </select>
+                                <span asp-validation-for="OrderID" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-3">
+                            <label asp-for="TotalAmount" class="col-sm-2 col-form-label"><span class="text-danger">*</span>Total Amount</label>
+                            <div class="col-sm-10">
+                                <input asp-for="TotalAmount" class="form-control" />
+                                <span asp-validation-for="TotalAmount" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-3">
+                            <label asp-for="Discount" class="col-sm-2 col-form-label"><span class="text-danger">*</span>Discount</label>
+                            <div class="col-sm-10">
+                                <input asp-for="Discount" class="form-control" />
+                                <span asp-validation-for="Discount" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-3">
+                            <label asp-for="NetAmount" class="col-sm-2 col-form-label"><span class="text-danger">*</span>Net Amount</label>
+                            <div class="col-sm-10">
+                                <input asp-for="NetAmount" class="form-control" />
+                                <span asp-validation-for="NetAmount" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-3">
+                            <label class="col-sm-2 col-form-label"><span class="text-danger">*</span>User Name</label>
+                            <div class="col-sm-10">
+                                <select class="form-control" asp-for="UserID" asp-items="@(new SelectList(ViewBag.UserList, "UserID", "UserName"))">
+                                    <option value="">--Select User--</option>
+                                </select>
+                                <span asp-validation-for="UserID" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-3">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <input type="submit" asp-action="BillSave" value="Save" class="btn btn-primary" />
+                                &nbsp;
+                                <a asp-action="BillsList" class="btn btn-secondary">Cancel</a>
+                            </div>
+                        </div>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+
+
+

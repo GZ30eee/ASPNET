@@ -1,0 +1,121 @@
+﻿@model AdminPanel3.Models.CustomerModel
+
+
+
+<h2>Add/Edit Customer</h2>
+
+<main id="main" class="main">
+    <div class="pagetitle">
+        <h1>Customer</h1>
+    </div>
+
+    <section class="section">
+        <div class="row">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Customer</h5>
+
+                    <form asp-action="CustomerSave" method="post" class="form-container">
+                        <div class="form-group">
+                            <input type="hidden" asp-for="CustomerID" />
+                        </div>
+
+                        <div class="form-group row mb-3">
+                            <label asp-for="CustomerName" class="col-sm-2 col-form-label"><span class="text-danger">*</span>Customer Name</label>
+                            <div class="col-sm-10">
+                                <input asp-for="CustomerName" class="form-control" />
+                                <span asp-validation-for="CustomerName" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-3">
+                            <label asp-for="HomeAddress" class="col-sm-2 col-form-label"><span class="text-danger">*</span>Home Address</label>
+                            <div class="col-sm-10">
+                                <input asp-for="HomeAddress" class="form-control" />
+                                <span asp-validation-for="HomeAddress" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-3">
+                            <label asp-for="Email" class="col-sm-2 col-form-label"><span class="text-danger">*</span>Email</label>
+                            <div class="col-sm-10">
+                                <input asp-for="Email" class="form-control" />
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-3">
+                            <label asp-for="MobileNo" class="col-sm-2 col-form-label"><span class="text-danger">*</span>Mobile No</label>
+                            <div class="col-sm-10">
+                                <input asp-for="MobileNo" class="form-control" />
+                                <span asp-validation-for="MobileNo" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-3">
+                            <label asp-for="GSTNo" class="col-sm-2 col-form-label"><span class="text-danger">*</span>GST No</label>
+                            <div class="col-sm-10">
+                                <input asp-for="GSTNo" class="form-control" />
+                                <span asp-validation-for="GSTNo" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-3">
+                            <label asp-for="CityName" class="col-sm-2 col-form-label"><span class="text-danger">*</span>City Name</label>
+                            <div class="col-sm-10">
+                                <input asp-for="CityName" class="form-control" />
+                                <span asp-validation-for="CityName" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-3">
+                            <label asp-for="PinCode" class="col-sm-2 col-form-label"><span class="text-danger">*</span>Pin Code</label>
+                            <div class="col-sm-10">
+                                <input asp-for="PinCode" class="form-control" />
+                                <span asp-validation-for="PinCode" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-3">
+                            <label asp-for="NetAmount" class="col-sm-2 col-form-label"><span class="text-danger">*</span>Net Amount</label>
+                            <div class="col-sm-10">
+                                <input asp-for="NetAmount" class="form-control" />
+                                <span asp-validation-for="NetAmount" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-3">
+                            <label class="col-sm-2 col-form-label"><span class="text-danger">*</span>User Name</label>
+                            <div class="col-sm-10">
+                                <select class="form-control" asp-for="UserID" asp-items="@(new SelectList(ViewBag.UserList, "UserID", "UserName"))">
+                                    <option value="">--Select User--</option>
+                                </select>
+                                <span asp-validation-for="UserID" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-3">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <input type="submit" asp-action="CustomerSave" value="Save" class="btn btn-primary" />
+                                &nbsp;
+                                <a asp-action="CustomerList" class="btn btn-secondary">Cancel</a>
+                            </div>
+                        </div>
+
+                    </form>
+
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,626 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\csms\\AdminPanel3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12D04A8E-8105-4D94-99D1-2F59AF309770}|C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\NewProject.csproj|c:\\users\\ghanshyamsinh zala\\source\\repos\\newproject\\newproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D04A8E-8105-4D94-99D1-2F59AF309770}|C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\NewProject.csproj|c:\\users\\ghanshyamsinh zala\\source\\repos\\newproject\\newproject\\data\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D04A8E-8105-4D94-99D1-2F59AF309770}|C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\NewProject.csproj|c:\\users\\ghanshyamsinh zala\\source\\repos\\newproject\\newproject\\data\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D04A8E-8105-4D94-99D1-2F59AF309770}|C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\NewProject.csproj|c:\\users\\ghanshyamsinh zala\\source\\repos\\newproject\\newproject\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D04A8E-8105-4D94-99D1-2F59AF309770}|C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\NewProject.csproj|c:\\users\\ghanshyamsinh zala\\source\\repos\\newproject\\newproject\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D04A8E-8105-4D94-99D1-2F59AF309770}|C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\NewProject.csproj|c:\\users\\ghanshyamsinh zala\\source\\repos\\newproject\\newproject\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D04A8E-8105-4D94-99D1-2F59AF309770}|C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\NewProject.csproj|c:\\users\\ghanshyamsinh zala\\source\\repos\\newproject\\newproject\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D04A8E-8105-4D94-99D1-2F59AF309770}|C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\NewProject.csproj|c:\\users\\ghanshyamsinh zala\\source\\repos\\newproject\\newproject\\controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D04A8E-8105-4D94-99D1-2F59AF309770}|C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\NewProject.csproj|c:\\users\\ghanshyamsinh zala\\source\\repos\\newproject\\newproject\\data\\staterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D04A8E-8105-4D94-99D1-2F59AF309770}|C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\NewProject.csproj|c:\\users\\ghanshyamsinh zala\\source\\repos\\newproject\\newproject\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D04A8E-8105-4D94-99D1-2F59AF309770}|C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\NewProject.csproj|c:\\users\\ghanshyamsinh zala\\source\\repos\\newproject\\newproject\\models\\statemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D04A8E-8105-4D94-99D1-2F59AF309770}|C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\NewProject.csproj|c:\\users\\ghanshyamsinh zala\\source\\repos\\newproject\\newproject\\data\\countryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D04A8E-8105-4D94-99D1-2F59AF309770}|C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\NewProject.csproj|c:\\users\\ghanshyamsinh zala\\source\\repos\\newproject\\newproject\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D04A8E-8105-4D94-99D1-2F59AF309770}|C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\NewProject.csproj|c:\\users\\ghanshyamsinh zala\\source\\repos\\newproject\\newproject\\models\\countrymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D04A8E-8105-4D94-99D1-2F59AF309770}|C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\NewProject.csproj|c:\\users\\ghanshyamsinh zala\\source\\repos\\newproject\\newproject\\data\\cityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D04A8E-8105-4D94-99D1-2F59AF309770}|C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\NewProject.csproj|c:\\users\\ghanshyamsinh zala\\source\\repos\\newproject\\newproject\\models\\citymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D04A8E-8105-4D94-99D1-2F59AF309770}|C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\NewProject.csproj|c:\\users\\ghanshyamsinh zala\\source\\repos\\newproject\\newproject\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|e:\\csms\\adminpanel3\\adminpanel3\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|solutionrelative:adminpanel3\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|e:\\csms\\adminpanel3\\adminpanel3\\models\\citymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|solutionrelative:adminpanel3\\models\\citymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|e:\\csms\\adminpanel3\\adminpanel3\\views\\city\\cityaddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|solutionrelative:adminpanel3\\views\\city\\cityaddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|e:\\csms\\adminpanel3\\adminpanel3\\helper\\urlencryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|solutionrelative:adminpanel3\\helper\\urlencryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|e:\\csms\\adminpanel3\\adminpanel3\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|solutionrelative:adminpanel3\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|e:\\csms\\adminpanel3\\adminpanel3\\views\\city\\citylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|solutionrelative:adminpanel3\\views\\city\\citylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|e:\\csms\\adminpanel3\\adminpanel3\\views\\order\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|solutionrelative:adminpanel3\\views\\order\\orderlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|e:\\csms\\adminpanel3\\adminpanel3\\views\\bills\\billslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|solutionrelative:adminpanel3\\views\\bills\\billslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|e:\\csms\\adminpanel3\\adminpanel3\\views\\bills\\billsform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|solutionrelative:adminpanel3\\views\\bills\\billsform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|e:\\csms\\adminpanel3\\adminpanel3\\views\\country\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|solutionrelative:adminpanel3\\views\\country\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|e:\\csms\\adminpanel3\\adminpanel3\\views\\country\\countryform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|solutionrelative:adminpanel3\\views\\country\\countryform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|e:\\csms\\adminpanel3\\adminpanel3\\views\\customer\\customerform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|solutionrelative:adminpanel3\\views\\customer\\customerform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|e:\\csms\\adminpanel3\\adminpanel3\\views\\customer\\customerlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|solutionrelative:adminpanel3\\views\\customer\\customerlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|e:\\csms\\adminpanel3\\adminpanel3\\views\\employee\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|solutionrelative:adminpanel3\\views\\employee\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|e:\\csms\\adminpanel3\\adminpanel3\\views\\product\\productform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|solutionrelative:adminpanel3\\views\\product\\productform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|e:\\csms\\adminpanel3\\adminpanel3\\views\\orderdetail\\orderdetaillist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|solutionrelative:adminpanel3\\views\\orderdetail\\orderdetaillist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|e:\\csms\\adminpanel3\\adminpanel3\\views\\orderdetail\\orderdetailform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|solutionrelative:adminpanel3\\views\\orderdetail\\orderdetailform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|e:\\csms\\adminpanel3\\adminpanel3\\views\\product\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|solutionrelative:adminpanel3\\views\\product\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|e:\\csms\\adminpanel3\\adminpanel3\\controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|solutionrelative:adminpanel3\\controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|e:\\csms\\adminpanel3\\adminpanel3\\models\\statemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|solutionrelative:adminpanel3\\models\\statemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|e:\\csms\\adminpanel3\\adminpanel3\\views\\state\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|solutionrelative:adminpanel3\\views\\state\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|e:\\csms\\adminpanel3\\adminpanel3\\views\\state\\stateform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|solutionrelative:adminpanel3\\views\\state\\stateform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|e:\\csms\\adminpanel3\\adminpanel3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|solutionrelative:adminpanel3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|e:\\csms\\adminpanel3\\adminpanel3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5F8368E6-7078-4E2A-A301-AC792E495271}|AdminPanel3\\AdminPanel3.csproj|solutionrelative:adminpanel3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T03:47:43.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Data\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Data\\OrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T03:43:18.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Models\\OrderModel.cs",
+              "ToolTip": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Models\\OrderModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T03:42:29.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T03:35:22.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Program.cs",
+              "ToolTip": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T03:02:10.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Data\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Data\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T03:35:00.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Models\\ProductModel.cs",
+              "ToolTip": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Models\\ProductModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T03:34:27.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T03:04:31.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StateRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Data\\StateRepository.cs",
+              "ToolTip": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Data\\StateRepository.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAIwKYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T03:01:17.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StateModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Models\\StateModel.cs",
+              "ToolTip": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Models\\StateModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T03:00:56.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StateController.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Controllers\\StateController.cs",
+              "ToolTip": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Controllers\\StateController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T02:57:57.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CountryController.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Controllers\\CountryController.cs",
+              "ToolTip": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Controllers\\CountryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T02:51:33.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CountryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Data\\CountryRepository.cs",
+              "ToolTip": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Data\\CountryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T02:51:10.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CountryModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Models\\CountryModel.cs",
+              "ToolTip": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Models\\CountryModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T02:49:57.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CityModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Models\\CityModel.cs",
+              "ToolTip": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Models\\CityModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T02:47:25.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Data\\CityRepository.cs",
+              "ToolTip": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Data\\CityRepository.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAUwIAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T02:47:16.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CityController.cs",
+              "DocumentMoniker": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Controllers\\CityController.cs",
+              "ToolTip": "C:\\Users\\Ghanshyamsinh Zala\\source\\repos\\NewProject\\NewProject\\Controllers\\CityController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAiwGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T02:46:09.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ProductForm.cshtml",
+              "DocumentMoniker": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\Product\\ProductForm.cshtml",
+              "RelativeDocumentMoniker": "AdminPanel3\\Views\\Product\\ProductForm.cshtml",
+              "ToolTip": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\Product\\ProductForm.cshtml",
+              "RelativeToolTip": "AdminPanel3\\Views\\Product\\ProductForm.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAIBJwBIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T02:39:00.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Form.cshtml",
+              "DocumentMoniker": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\Employee\\Form.cshtml",
+              "RelativeDocumentMoniker": "AdminPanel3\\Views\\Employee\\Form.cshtml",
+              "ToolTip": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\Employee\\Form.cshtml",
+              "RelativeToolTip": "AdminPanel3\\Views\\Employee\\Form.cshtml",
+              "ViewState": "AgIAAJkAAAAAAAAAAIBJwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T02:39:09.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CityModel.cs",
+              "DocumentMoniker": "E:\\csms\\AdminPanel3\\AdminPanel3\\Models\\CityModel.cs",
+              "RelativeDocumentMoniker": "AdminPanel3\\Models\\CityModel.cs",
+              "ToolTip": "E:\\csms\\AdminPanel3\\AdminPanel3\\Models\\CityModel.cs",
+              "RelativeToolTip": "AdminPanel3\\Models\\CityModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T14:25:51.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CityAddEdit.cshtml",
+              "DocumentMoniker": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\City\\CityAddEdit.cshtml",
+              "RelativeDocumentMoniker": "AdminPanel3\\Views\\City\\CityAddEdit.cshtml",
+              "ToolTip": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\City\\CityAddEdit.cshtml",
+              "RelativeToolTip": "AdminPanel3\\Views\\City\\CityAddEdit.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAWwDsAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T14:28:21.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CityController.cs",
+              "DocumentMoniker": "E:\\csms\\AdminPanel3\\AdminPanel3\\Controllers\\CityController.cs",
+              "RelativeDocumentMoniker": "AdminPanel3\\Controllers\\CityController.cs",
+              "ToolTip": "E:\\csms\\AdminPanel3\\AdminPanel3\\Controllers\\CityController.cs",
+              "RelativeToolTip": "AdminPanel3\\Controllers\\CityController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T14:25:39.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CountryController.cs",
+              "DocumentMoniker": "E:\\csms\\AdminPanel3\\AdminPanel3\\Controllers\\CountryController.cs",
+              "RelativeDocumentMoniker": "AdminPanel3\\Controllers\\CountryController.cs",
+              "ToolTip": "E:\\csms\\AdminPanel3\\AdminPanel3\\Controllers\\CountryController.cs",
+              "RelativeToolTip": "AdminPanel3\\Controllers\\CountryController.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAQwLgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T13:59:02.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UrlEncryptor.cs",
+              "DocumentMoniker": "E:\\csms\\AdminPanel3\\AdminPanel3\\Helper\\UrlEncryptor.cs",
+              "RelativeDocumentMoniker": "AdminPanel3\\Helper\\UrlEncryptor.cs",
+              "ToolTip": "E:\\csms\\AdminPanel3\\AdminPanel3\\Helper\\UrlEncryptor.cs",
+              "RelativeToolTip": "AdminPanel3\\Helper\\UrlEncryptor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T02:58:49.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CityList.cshtml",
+              "DocumentMoniker": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\City\\CityList.cshtml",
+              "RelativeDocumentMoniker": "AdminPanel3\\Views\\City\\CityList.cshtml",
+              "ToolTip": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\City\\CityList.cshtml",
+              "RelativeToolTip": "AdminPanel3\\Views\\City\\CityList.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAIBJwFEAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T14:26:01.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrderDetailList.cshtml",
+              "DocumentMoniker": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\OrderDetail\\OrderDetailList.cshtml",
+              "RelativeDocumentMoniker": "AdminPanel3\\Views\\OrderDetail\\OrderDetailList.cshtml",
+              "ToolTip": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\OrderDetail\\OrderDetailList.cshtml",
+              "RelativeToolTip": "AdminPanel3\\Views\\OrderDetail\\OrderDetailList.cshtml",
+              "ViewState": "AgIAAFUAAAAAAAAAAEBVwH4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T02:38:41.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CustomerForm.cshtml",
+              "DocumentMoniker": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\Customer\\CustomerForm.cshtml",
+              "RelativeDocumentMoniker": "AdminPanel3\\Views\\Customer\\CustomerForm.cshtml",
+              "ToolTip": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\Customer\\CustomerForm.cshtml",
+              "RelativeToolTip": "AdminPanel3\\Views\\Customer\\CustomerForm.cshtml",
+              "ViewState": "AgIAAGcAAAAAAAAAAIBJwBQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T02:39:14.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CustomerList.cshtml",
+              "DocumentMoniker": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\Customer\\CustomerList.cshtml",
+              "RelativeDocumentMoniker": "AdminPanel3\\Views\\Customer\\CustomerList.cshtml",
+              "ToolTip": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\Customer\\CustomerList.cshtml",
+              "RelativeToolTip": "AdminPanel3\\Views\\Customer\\CustomerList.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAIBJwHoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T02:39:15.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BillsForm.cshtml",
+              "DocumentMoniker": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\Bills\\BillsForm.cshtml",
+              "RelativeDocumentMoniker": "AdminPanel3\\Views\\Bills\\BillsForm.cshtml",
+              "ToolTip": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\Bills\\BillsForm.cshtml",
+              "RelativeToolTip": "AdminPanel3\\Views\\Bills\\BillsForm.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAIBJwAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T02:39:49.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "OrderDetailForm.cshtml",
+              "DocumentMoniker": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\OrderDetail\\OrderDetailForm.cshtml",
+              "RelativeDocumentMoniker": "AdminPanel3\\Views\\OrderDetail\\OrderDetailForm.cshtml",
+              "ToolTip": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\OrderDetail\\OrderDetailForm.cshtml",
+              "RelativeToolTip": "AdminPanel3\\Views\\OrderDetail\\OrderDetailForm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T02:38:39.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OrderList.cshtml",
+              "DocumentMoniker": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\Order\\OrderList.cshtml",
+              "RelativeDocumentMoniker": "AdminPanel3\\Views\\Order\\OrderList.cshtml",
+              "ToolTip": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\Order\\OrderList.cshtml",
+              "RelativeToolTip": "AdminPanel3\\Views\\Order\\OrderList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T02:37:49.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ProductList.cshtml",
+              "DocumentMoniker": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\Product\\ProductList.cshtml",
+              "RelativeDocumentMoniker": "AdminPanel3\\Views\\Product\\ProductList.cshtml",
+              "ToolTip": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\Product\\ProductList.cshtml",
+              "RelativeToolTip": "AdminPanel3\\Views\\Product\\ProductList.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAIBJwBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T02:37:44.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BillsList.cshtml",
+              "DocumentMoniker": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\Bills\\BillsList.cshtml",
+              "RelativeDocumentMoniker": "AdminPanel3\\Views\\Bills\\BillsList.cshtml",
+              "ToolTip": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\Bills\\BillsList.cshtml",
+              "RelativeToolTip": "AdminPanel3\\Views\\Bills\\BillsList.cshtml",
+              "ViewState": "AgIAAFgAAAAAAAAAAIBJwGgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T02:37:36.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "StateModel.cs",
+              "DocumentMoniker": "E:\\csms\\AdminPanel3\\AdminPanel3\\Models\\StateModel.cs",
+              "RelativeDocumentMoniker": "AdminPanel3\\Models\\StateModel.cs",
+              "ToolTip": "E:\\csms\\AdminPanel3\\AdminPanel3\\Models\\StateModel.cs",
+              "RelativeToolTip": "AdminPanel3\\Models\\StateModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T14:12:22.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\Country\\Index.cshtml",
+              "RelativeDocumentMoniker": "AdminPanel3\\Views\\Country\\Index.cshtml",
+              "ToolTip": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\Country\\Index.cshtml",
+              "RelativeToolTip": "AdminPanel3\\Views\\Country\\Index.cshtml",
+              "ViewState": "AgIAADsAAAAAAAAAAIBJwDUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T14:01:09.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\State\\Index.cshtml",
+              "RelativeDocumentMoniker": "AdminPanel3\\Views\\State\\Index.cshtml",
+              "ToolTip": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\State\\Index.cshtml",
+              "RelativeToolTip": "AdminPanel3\\Views\\State\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwEkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T14:03:50.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CountryForm.cshtml",
+              "DocumentMoniker": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\Country\\CountryForm.cshtml",
+              "RelativeDocumentMoniker": "AdminPanel3\\Views\\Country\\CountryForm.cshtml",
+              "ToolTip": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\Country\\CountryForm.cshtml",
+              "RelativeToolTip": "AdminPanel3\\Views\\Country\\CountryForm.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAIBJwAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T14:00:39.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\csms\\AdminPanel3\\AdminPanel3\\appsettings.json",
+              "RelativeDocumentMoniker": "AdminPanel3\\appsettings.json",
+              "ToolTip": "E:\\csms\\AdminPanel3\\AdminPanel3\\appsettings.json",
+              "RelativeToolTip": "AdminPanel3\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-03T13:53:04.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\csms\\AdminPanel3\\AdminPanel3\\Program.cs",
+              "RelativeDocumentMoniker": "AdminPanel3\\Program.cs",
+              "ToolTip": "E:\\csms\\AdminPanel3\\AdminPanel3\\Program.cs",
+              "RelativeToolTip": "AdminPanel3\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowBIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T13:52:58.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "StateController.cs",
+              "DocumentMoniker": "E:\\csms\\AdminPanel3\\AdminPanel3\\Controllers\\StateController.cs",
+              "RelativeDocumentMoniker": "AdminPanel3\\Controllers\\StateController.cs",
+              "ToolTip": "E:\\csms\\AdminPanel3\\AdminPanel3\\Controllers\\StateController.cs",
+              "RelativeToolTip": "AdminPanel3\\Controllers\\StateController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T03:52:36.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "StateForm.cshtml",
+              "DocumentMoniker": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\State\\StateForm.cshtml",
+              "RelativeDocumentMoniker": "AdminPanel3\\Views\\State\\StateForm.cshtml",
+              "ToolTip": "E:\\csms\\AdminPanel3\\AdminPanel3\\Views\\State\\StateForm.cshtml",
+              "RelativeToolTip": "AdminPanel3\\Views\\State\\StateForm.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswCUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T03:52:07.151Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

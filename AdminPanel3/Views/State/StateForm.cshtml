@@ -1,0 +1,70 @@
+﻿@model AdminPanel3.Models.State
+
+@{
+    ViewData["Title"] = Model.StateID == 0 ? "Add State" : "Edit State";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main id="main" class="main">
+    <div class="pagetitle">
+        <h1>@ViewData["Title"]</h1>
+    </div>
+
+    <section class="section">
+        <div class="row">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">@ViewData["Title"]</h5>
+
+                    <form asp-action="@((Model.StateID == 0) ? "Create" : "Edit")" method="post" class="form-container">
+                        <input type="hidden" asp-for="StateID" />
+
+                        <div class="form-group row mb-3">
+                            <label asp-for="StateName" class="col-sm-2 col-form-label"><span class="text-danger">*</span>State Name</label>
+                            <div class="col-sm-10">
+                                <input asp-for="StateName" class="form-control" required />
+                                <span asp-validation-for="StateName" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-3">
+                            <label asp-for="StateCode" class="col-sm-2 col-form-label"><span class="text-danger">*</span>State Code</label>
+                            <div class="col-sm-10">
+                                <input asp-for="StateCode" class="form-control" required />
+                                <span asp-validation-for="StateCode" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-3">
+                            <label asp-for="CountryID" class="col-sm-2 col-form-label"><span class="text-danger">*</span>Country</label>
+                            <div class="col-sm-10">
+                                <select asp-for="CountryID" class="form-control" asp-items="@ViewBag.CountryList">
+                                    <option value="">--Select Country--</option>
+                                </select>
+                                <span asp-validation-for="CountryID" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-sm-10 offset-sm-2 text-start">
+                                <input type="submit" value="@((Model.StateID == 0) ? "Add State" : "Save Changes")" class="btn btn-primary" />
+                                &nbsp;
+                                <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+                            </div>
+                        </div>
+
+                    </form>
+
+                    <div>
+                        <!-- Additional content can go here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

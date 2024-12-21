@@ -1,0 +1,188 @@
+﻿@model DataTable
+@using System.Data;
+
+<style>
+    .icon-btn {
+        padding: 4px 6px; /* Reduce padding for smaller buttons */
+        font-size: 12px; /* Smaller font size for the icon */
+        width: 30px; /* Set a smaller width for the button */
+        height: 30px; /* Set a smaller height for the button */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .icon-btn i {
+            font-size: 14px; /* Smaller size for the icon */
+        }
+
+    /* Optional: Adjust the spacing between buttons */
+    .me-2 {
+        margin-right: 4px;
+    }
+</style>
+
+
+<main id="main" class="main">
+
+
+    <div class="pagetitle">
+        <h1>Order Table</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Order</a></li>
+                <li class="breadcrumb-item">Table</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+    <section class="section">
+        <div class="row">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Orders
+                        <a asp-action="OrderForm" class="btn btn-primary">Add</a>
+                        <a asp-action="ExportToExcel" class="btn btn-success"><i class="ri-file-excel-2-line"></i></a>
+                        <a asp-action="ExportToPdf" class="btn btn-danger"><i class="ri-file-pdf-2-line"></i></a>
+                    </h5>
+
+                    <!-- Default Table -->
+                    <table class="table" border="1">
+                        <thead>
+                            <tr>
+                                <th scope="col">Order ID</th>
+                                <th scope="col">Order Number</th>
+                                <th scope="col">Order Date</th>
+                                <th scope="col">Customer Name</th>
+                                <th scope="col">Payment Mode</th>
+                                <th scope="col">Total Amount</th>
+                                <th scope="col">Shipping Address</th>
+                                <th scope="col">User Name</th>
+                                <th scope="col">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (DataRow order in Model.Rows)
+                            {
+                                <tr>
+                                    <td>@order["OrderID"]</td>
+                                    <td>@order["OrderNumber"]</td>
+                                    <td>@order["OrderDate"]</td>
+                                    <td>@order["CustomerName"]</td>
+                                    <td>@order["PaymentMode"]</td>
+                                    <td>@order["TotalAmount"]</td>
+                                    <td>@order["ShippingAddress"]</td>
+                                    <td>@order["UserName"]</td>
+                                    <td>
+                                        <div class="d-flex">
+                                            <form asp-action="OrderForm" asp-controller="Order" asp-route-OrderID="@order["OrderID"]">
+                                                <button type="submit" class="btn btn-warning icon-btn me-2">
+                                                    <i class="fas fa-edit"></i>
+                                                </button>
+                                            </form>
+
+                                            <button class="btn btn-danger icon-btn me-2" onclick="showDeleteModal('@order["OrderID"]')">
+                                                <i class="fas fa-trash-alt"></i>
+                                            </button>
+
+                                            <!-- Copy button -->
+                                            <button class="btn btn-secondary icon-btn" onclick="copyRowContent(this, '@order["OrderID"]')">
+                                                <i class="fas fa-copy"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    <!-- End Default Table Example -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Delete Confirmation -->
+    <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header justify-content-center">
+                    <!-- Center the title -->
+                    <h5 class="modal-title" id="deleteModalLabel">Confirm Deletion</h5>
+                </div>
+                <div class="modal-body text-center">
+                    <!-- Center the body text -->
+                    Are you sure you want to delete this order?
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <!-- Center the footer buttons -->
+                    <form id="deleteForm" method="post" asp-controller="Order" asp-action="OrderDelete">
+                        <input type="hidden" name="OrderID" id="deleteOrderID" />
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main><!-- End #main -->
+@section Scripts {
+<script>
+    function copyRowContent(button, orderID) {
+        let row = button.closest('tr');  // Get the row that contains the button
+        let table = button.closest('table');
+        let headerCells = table.querySelectorAll('thead th');  // Get all table headers
+        let rowCells = row.querySelectorAll('td');  // Get all data cells in the row
+
+        let content = '';
+
+        // Iterate through each header and its corresponding cell
+        headerCells.forEach((header, index) => {
+            if (index < rowCells.length - 1) {
+                content += `${header.innerText.trim()}: ${rowCells[index].innerText.trim()}\n`;
+            }
+        });
+
+        // Copy the formatted content to clipboard
+        navigator.clipboard.writeText(content).then(() => {
+            // Change the icon to clipboard with tick
+            button.innerHTML = '<i class="fas fa-clipboard-check"></i>';
+
+            // Optionally, change it back to copy icon after some time
+            setTimeout(() => {
+                button.innerHTML = '<i class="fas fa-copy"></i>';
+            }, 2000); // Change back after 2 seconds
+        }).catch(err => {
+            console.error('Failed to copy: ', err);
+        });
+    }
+
+    function showDeleteModal(orderID) {
+        // Set the OrderID in the hidden input field of the form
+        document.getElementById('deleteOrderID').value = orderID;
+
+        // Show the modal
+        $('#deleteModal').modal('show');
+    }
+</script>
+}
+
+<!-- Include Bootstrap JS (if not already included) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- Include Font Awesome for icons -->

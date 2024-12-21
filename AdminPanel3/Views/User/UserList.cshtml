@@ -1,0 +1,197 @@
+﻿@model DataTable;
+@using System.Data;
+
+<main id="main" class="main">
+    
+
+    <div class="pagetitle">
+        <h1>User Table</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">User</a></li>
+                <li class="breadcrumb-item">Table</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+   
+
+    <section class="section">
+        <div id="notification-box" class="notification-box">
+            <i class="fas fa-clipboard"></i> Password copied successfully!
+            <div class="underline"></div>
+        </div>
+        <div class="row">
+            <span class="text text-danger">@TempData["ErrorMessage"]</span>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Users
+                        &nbsp;&nbsp;&nbsp;
+                        <a asp-action="UserForm" class="btn btn-primary">Add</a>
+                        &nbsp;&nbsp;&nbsp;
+                        <a asp-action="ExportToExcel" class="btn btn-success"><i class="ri-file-excel-2-line"></i></a>
+                        &nbsp;&nbsp;&nbsp;
+                        <a asp-action="ExportToPdf" class="btn btn-danger"><i class="ri-file-pdf-2-line"></i></a>
+                        &nbsp;&nbsp;&nbsp;
+                    </h5>
+
+                    <!-- Default Table -->
+                    <table class="table" border="1">
+                        <thead>
+                            <tr>
+                                <th scope="col">User Name</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Password</th>
+                                <th scope="col">Mobile No</th>
+                                <th scope="col">Address</th>
+                                <th scope="col">IsActive</th>
+                                <th scope="col">Actions</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            @foreach (DataRow user in Model.Rows)
+                            {
+                                <tr>
+                                    <td>@user["UserName"]</td>
+                                    <td>@user["Email"]</td>
+                                    <td>
+                                        <span class="password-box" data-password="@user["Password"]">
+                                            @FormatPassword(user["Password"].ToString())
+                                        </span>
+                                    </td>
+                                    <td>@user["MobileNo"]</td>
+                                    <td>@user["Address"]</td>
+                                    <td>@user["IsActive"]</td>
+                                    <td>
+                                        <div class="d-flex">
+                                            <form asp-action="UserForm" asp-controller="User" asp-route-UserID="@user["UserID"]">
+                                                <button type="submit" class="btn btn-warning me-2">
+                                                    <i class="fas fa-edit"></i>
+                                                </button>
+                                            </form>
+
+                                            <button class="btn btn-danger" onclick="showDeleteModal('@user["UserID"]')">
+                                                <i class="fas fa-trash-alt"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    <!-- End Default Table Example -->
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script>
+    document.querySelectorAll('.password-box').forEach(function (element) {
+        element.addEventListener('mouseenter', function () {
+            // Show password on hover
+            this.innerText = this.getAttribute('data-password');
+        });
+
+        element.addEventListener('mouseleave', function () {
+            // Re-mask password when hover ends
+            const password = this.getAttribute('data-password');
+            const maskedPassword = password.substring(0, 2) + '*'.repeat(password.length - 4) + password.substring(password.length - 2);
+            this.innerText = maskedPassword;
+        });
+
+        element.addEventListener('click', function () {
+            // Copy password to clipboard
+            const password = this.getAttribute('data-password');
+            navigator.clipboard.writeText(password).then(function () {
+                // Show notification
+                const notificationBox = document.getElementById('notification-box');
+                notificationBox.classList.add('show');
+
+                
+
+                // Hide after 3 seconds
+                setTimeout(function () {
+                    notificationBox.classList.remove('show');
+                    underline.style.width = '0%'; // Reset underline width for next time
+                }, 3000);
+            }, function () {
+                alert('Failed to copy password');
+            });
+        });
+    });
+</script>
+@functions {
+    public string FormatPassword(string password)
+    {
+        if (string.IsNullOrEmpty(password) || password.Length < 4)
+        {
+            return password; // Return as is if it's too short to format
+        }
+
+        string firstTwo = password.Substring(0, 2);
+        string lastTwo = password.Substring(password.Length - 2);
+        string masked = new string('*', password.Length - 4);
+
+        return $"{firstTwo}{masked}{lastTwo}";
+    }
+}
+
+
+<style>
+    /* Notification Box Styling */
+    .notification-box {
+        position: fixed;
+        top: 70px;
+        right: 20px;
+        background-color: #28a745;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 14px;
+        display: none;
+        align-items: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        z-index: 10000000;
+    }
+
+        .notification-box i {
+            margin-right: 10px;
+        }
+
+        /* Underline Styling with Transition */
+        .notification-box .underline {
+            margin-top: 5px;
+            height: 2px;
+            width: 0;
+            background-color: white;
+            transition: width 0.5s ease; /* Smooth transition */
+        }
+
+        /* Slide-in Animation */
+        .notification-box.show {
+            display: flex;
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .notification-box:not(.show) {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+</style>

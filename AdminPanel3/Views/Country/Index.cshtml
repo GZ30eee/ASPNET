@@ -1,0 +1,81 @@
+﻿@using System.Data
+
+@{
+    ViewData["Title"] = "Country List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main id="main" class="main">
+    <div class="pagetitle">
+        <h1>Countries</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a asp-controller="HomeMaster" asp-action="Index">
+                        <i class="fa fa-home"></i>
+                    </a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Country List</li>
+            </ol>
+        </nav>
+
+        <div class="d-flex justify-content-end align-items-center">
+            <a class="btn btn-outline-primary" asp-controller="Country" asp-action="Create">
+                <i class="bi bi-plus-lg"></i>&nbsp;Add Country
+            </a>
+        </div>
+    </div><!-- End Page Title -->
+    @if (TempData["CountryInsertMsg"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["CountryInsertMsg"]
+        </div>
+    }
+
+    <div class="mb-3">
+        <input type="text" class="form-control" id="countrySearch" placeholder="Search Any Country">
+    </div>
+
+    <table class="table table-hover table-header-fixed">
+        <thead>
+            <tr>
+                <th scope="col">Country Name</th>
+                <th scope="col">Country Code</th>
+                <th class="text-center">Actions</th>
+            </tr>
+        </thead>
+
+        <tbody id="countryTable">
+            @foreach (DataRow row in Model.Rows)
+            {
+                <tr>
+                    <td>@row["CountryName"]</td>
+                    <td>@row["CountryCode"]</td>
+                    <td class="text-center">
+                        <a class="btn btn-outline-success btn-xs" asp-controller="Country" asp-action="Edit" asp-route-id="@row["CountryID"]">
+                            <i class="bi bi-pencil-fill"></i> Edit
+                        </a>
+                        <form asp-controller="Country" asp-action="Delete" asp-route-id="@row["CountryID"]" method="post" style="display:inline;">
+                            <button type="submit" class="btn btn-outline-danger btn-xs" onclick="return confirm('Are you sure you want to delete this country?');">
+                                <i class="bi bi-x"></i> Delete
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</main>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#countrySearch").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $("#countryTable tr").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+                });
+            });
+        });
+    </script>
+}

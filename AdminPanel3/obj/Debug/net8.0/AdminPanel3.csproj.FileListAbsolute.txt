@@ -1,0 +1,134 @@
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\appsettings.Development.json
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\appsettings.json
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\AdminPanel3.staticwebassets.runtime.json
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\AdminPanel3.exe
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\AdminPanel3.deps.json
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\AdminPanel3.runtimeconfig.json
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\AdminPanel3.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\AdminPanel3.pdb
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\obj\Debug\net8.0\AdminPanel3.GeneratedMSBuildEditorConfig.editorconfig
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\obj\Debug\net8.0\AdminPanel3.AssemblyInfoInputs.cache
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\obj\Debug\net8.0\AdminPanel3.AssemblyInfo.cs
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\obj\Debug\net8.0\AdminPanel3.csproj.CoreCompileInputs.cache
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\obj\Debug\net8.0\AdminPanel3.MvcApplicationPartsAssemblyInfo.cache
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\obj\Debug\net8.0\AdminPanel3.RazorAssemblyInfo.cache
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\obj\Debug\net8.0\AdminPanel3.RazorAssemblyInfo.cs
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\obj\Debug\net8.0\staticwebassets.build.json
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\obj\Debug\net8.0\staticwebassets.development.json
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\obj\Debug\net8.0\staticwebassets\msbuild.AdminPanel3.Microsoft.AspNetCore.StaticWebAssets.props
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\obj\Debug\net8.0\staticwebassets\msbuild.build.AdminPanel3.props
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AdminPanel3.props
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AdminPanel3.props
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\obj\Debug\net8.0\staticwebassets.pack.json
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\obj\Debug\net8.0\scopedcss\bundle\AdminPanel3.styles.css
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\obj\Debug\net8.0\scopedcss\projectbundle\AdminPanel3.bundle.scp.css
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\obj\Debug\net8.0\AdminPanel3.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\obj\Debug\net8.0\refint\AdminPanel3.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\obj\Debug\net8.0\AdminPanel3.pdb
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\obj\Debug\net8.0\AdminPanel3.genruntimeconfig.cache
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\obj\Debug\net8.0\ref\AdminPanel3.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\obj\Debug\net8.0\AdminPanel3.csproj.AssemblyReference.cache
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\obj\Debug\net8.0\AdminPan.27C9FBD9.Up2Date
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\EPPlus.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\EPPlus.Interfaces.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\EPPlus.System.Drawing.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.barcodes.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.bouncy-castle-connector.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.forms.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.io.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.kernel.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.layout.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.pdfa.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.pdfua.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.sign.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.styledxmlparser.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.svg.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.commons.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.bouncy-castle-adapter.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\MailKit.dll
+D:\DU\Sem5\ASP .NET Core\MVCApp\AdminPanel3\AdminPanel3\bin\Debug\net8.0\MimeKit.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\appsettings.Development.json
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\appsettings.json
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\AdminPanel3.staticwebassets.runtime.json
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\AdminPanel3.exe
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\AdminPanel3.deps.json
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\AdminPanel3.runtimeconfig.json
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\AdminPanel3.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\AdminPanel3.pdb
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\EPPlus.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\EPPlus.Interfaces.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\EPPlus.System.Drawing.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.barcodes.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.bouncy-castle-connector.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.forms.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.io.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.kernel.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.layout.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.pdfa.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.pdfua.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.sign.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.styledxmlparser.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.svg.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.bouncy-castle-adapter.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\itext.commons.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\MailKit.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\MimeKit.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\System.Data.SqlClient.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\AdminPanel3.csproj.AssemblyReference.cache
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\AdminPanel3.GeneratedMSBuildEditorConfig.editorconfig
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\AdminPanel3.AssemblyInfoInputs.cache
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\AdminPanel3.AssemblyInfo.cs
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\AdminPanel3.csproj.CoreCompileInputs.cache
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\AdminPanel3.MvcApplicationPartsAssemblyInfo.cache
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\AdminPanel3.RazorAssemblyInfo.cache
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\AdminPanel3.RazorAssemblyInfo.cs
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\staticwebassets.build.json
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\staticwebassets.development.json
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\staticwebassets\msbuild.AdminPanel3.Microsoft.AspNetCore.StaticWebAssets.props
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\staticwebassets\msbuild.build.AdminPanel3.props
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.AdminPanel3.props
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AdminPanel3.props
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\staticwebassets.pack.json
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\scopedcss\bundle\AdminPanel3.styles.css
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\scopedcss\projectbundle\AdminPanel3.bundle.scp.css
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\AdminPan.27C9FBD9.Up2Date
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\AdminPanel3.dll
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\refint\AdminPanel3.dll
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\AdminPanel3.pdb
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\AdminPanel3.genruntimeconfig.cache
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\ref\AdminPanel3.dll
+E:\csms\AdminPanel3\AdminPanel3\bin\Debug\net8.0\AdminPanel3.staticwebassets.endpoints.json
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\staticwebassets\msbuild.AdminPanel3.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\csms\AdminPanel3\AdminPanel3\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

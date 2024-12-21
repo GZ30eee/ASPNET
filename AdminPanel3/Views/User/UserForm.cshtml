@@ -1,0 +1,113 @@
+﻿@model AdminPanel3.Models.UserModel
+
+@* @{
+    var action = ViewData["Action"] as string;
+    var title = action == "Create" ? "Create User" : "Edit User";
+    ViewData["Title"] = title;
+} *@
+
+<h2>Add/Edit User</h2>
+
+<main id="main" class="main">
+    <div class="pagetitle">
+        <h1>User</h1>
+    </div>
+
+    <section class="section">
+        <div class="row">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">User</h5>
+
+                    <form asp-action="UserSave" method="post" class="form-container">
+
+                        <div class="form-group">
+                            <input type="hidden" asp-for="UserID" />
+
+
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-2 col-form-label"><span class="text-danger">*</span>User Name</label>
+                            <div class="col-sm-10">
+                                <input asp-for="UserName" class="form-control" />
+                                <span asp-validation-for="UserName" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-2 col-form-label"><span class="text-danger">*</span>Email</label>
+                            <div class="col-sm-10">
+                                <input asp-for="Email" class="form-control" />
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-2 col-form-label"><span class="text-danger">*</span>Password</label>
+                            <div class="col-sm-10">
+                                <input asp-for="Password"  type="password" class="form-control" />
+                                <span asp-validation-for="Password" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-2 col-form-label"><span class="text-danger">*</span>Mobile No</label>
+                            <div class="col-sm-10">
+                                <input asp-for="MobileNo" class="form-control" />
+                                <span asp-validation-for="MobileNo" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-2 col-form-label"><span class="text-danger">*</span>Address</label>
+                            <div class="col-sm-10">
+                                <input asp-for="Address" class="form-control" />
+                                <span asp-validation-for="Address" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-2 col-form-label"><span class="text-danger">*</span>Is Active</label>
+                            <div class="col-sm-10">
+                                <div>
+                                    <label><input type="radio" asp-for="IsActive" value="true" id="IsActiveYes" /> Yes</label>
+                                    <label><input type="radio" asp-for="IsActive" value="false" id="IsActiveNo" /> No</label>
+                                </div>
+                                <span asp-validation-for="IsActive" class="text-danger"></span>
+                            </div>
+                        </div>
+
+
+
+                        <div class="form-group">
+                            <input type="submit" asp-action="UserSave" value="Save" class="btn btn-primary" />
+                            @* @if (action == "Edit")
+                            {
+                            <input type="submit" name="action" value="Delete" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this user?');" />
+                            } *@
+                            &nbsp;
+                            <a asp-action="UserList" class="btn btn-secondary">Cancel</a>
+                        </div>
+
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+
+
